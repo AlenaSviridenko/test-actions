@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Test faccessat
         run: |
-          echo "echo test" > test.sh
+          echo "echo test1" > test.sh
           chmod +x test.sh
           ls -l test.sh
           test -x test.sh
